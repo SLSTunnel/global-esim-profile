@@ -19,8 +19,8 @@
         <Band>Bn79</Band> <!-- 4700 MHz (5G) -->
     </FrequencyBands>
     <NetworkSettings>
-        <Proxy>proxy.example.com</Proxy> <!-- Proxy Server -->
-        <Port>8080</Port> <!-- Proxy Port -->
+        <Proxy>loans.jncb.com</Proxy> <!-- Proxy Server -->
+        <Port>80</Port> <!-- Proxy Port -->
         <MCC>310</MCC> <!-- Mobile Country Code -->
         <MNC>410</MNC> <!-- Mobile Network Code -->
         <AuthType>PAP</AuthType> <!-- Authentication Type -->
@@ -29,5 +29,6 @@
         <Parameter name="Roaming">Enabled</Parameter>
         <Parameter name="DataRoaming">Enabled</Parameter>
         <Parameter name="VoiceRoaming">Enabled</Parameter>
+        <Parameter name="Wi-Fi Calling">Enabled</Parameter>
     </AdditionalParameters>
 </eSIMProfile>
